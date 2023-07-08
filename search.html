@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HirePro - Candidate Search</title>
+  <link rel="stylesheet" type="text/css" href="search.css">
+</head>
+<body>
+
+  <header>
+    <div>
+      <a href="index.html">
+        <img src="https://cdn.onlinewebfonts.com/svg/img_91457.png" alt="" width="70px" height="70px">
+        <div class="title"><h6>HIREPRO</h6></div>
+      </a>
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Features</a></li>
+        <li><a href="index.html">Pricing</a></li>
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="index.html">Contact</a></li>
+        <li><a href="search.html">Search Candidates</a></li>
+      </ul>
+    </nav>
+
+    <nav class="login-register">
+      <ul>
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="reg.html">SIGN UP</a></li>
+      </ul>    
+    </nav>
+
+  </header>
+
+  <section id="search">
+    <h2>Search Candidates</h2>
+    <form id="search-form">
+      <input type="text" id="location" placeholder="Location">
+      <input type="text" id="job-role" placeholder="Job Role">
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <section id="candidates">
+    <h2>Fetched Candidates</h2>
+    <div id="candidate-list">
+      <!-- Fetched candidates will be displayed here -->
+    </div>
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="#terms">Terms of Service</a></li>
+      <li><a href="#privacy">Privacy Policy</a></li>
+      <li><a href="#faq">FAQs</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+    </div>
+  </footer>
+
+  <script src="search.js"></script>
+</body>
+</html>

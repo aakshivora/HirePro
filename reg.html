@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HirePro - Register</title>
+  <link rel="stylesheet" type="text/css" href="log_reg.css">
+</head>
+<body>
+
+  <header>
+    <div>
+      <a href="index.html">
+        <img src="https://cdn.onlinewebfonts.com/svg/img_91457.png" alt="" width="70px" height="70px">
+        <div class="title"><h6>HIREPRO</h6></div>
+      </a>
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Features</a></li>
+        <li><a href="index.html">Pricing</a></li>
+        <li><a href="index.html">About Us</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <nav class="login-register">
+      <ul>
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="reg.html">SIGN UP</a></li>
+      </ul>    
+    </nav>
+
+  </header>
+
+  <section id="register">
+    <h2>Register</h2>
+    <form method="post" action="search.html">
+
+      <input type="text" name="u-name" id="u-name" onkeyup="valid_uname()" placeholder="Name" required>
+      <span id="error-u"></span><br>
+
+      <input type="email" name="email" id="email" onkeyup="valid_email()" placeholder="Email" required>
+      <span id="error-e"></span><br>
+
+      <input type="password" name="pass1" id="pass1" onkeyup="valid_pass1()" placeholder="Password" required>
+      <span id="error-pass"></span><br>
+
+      <input type="password" name="pass2" id="pass2" onkeyup="valid_pass2()" placeholder="Confirm Password" required>
+      <span id="error-pass2"></span><br>
+
+      <button type="submit" onclick="validate()">Register</button>
+      <span id="error-gender"></span><br>
+
+    </form>
+    <p>Already have an account?</p>
+    <p class="log"><a href="login.html">Login here</a></p>
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="#terms">Terms of Service</a></li>
+      <li><a href="#privacy">Privacy Policy</a></li>
+      <li><a href="#faq">FAQs</a></li>
+    </ul>
+    <div class="social-icons">
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+    </div>
+  </footer>
+
+  <script src="log_reg.js"></script>
+</body>
+</html>

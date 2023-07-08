@@ -1,0 +1,299 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  header {
+    background: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+  }
+
+  .title {
+    font-size: large;
+    color: black;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    transition: transform .2s;
+  }
+
+  nav ul li a :hover{
+    text-decoration: solid;
+    color: cornflowerblue;
+    text-decoration-color: white;
+    transform: scale(1.5);
+  }
+  
+  .login-register{
+    margin-left: auto;
+  }
+
+  .login-register ul li :hover
+  {
+    text-decoration: underline;
+    color: cornflowerblue;
+    text-decoration-color: white;
+    transform: scale(1.5);
+  }
+  
+  #hero {
+    height: 500px;
+    background: white;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    align-items: center;
+    background: url("image.jpg") no-repeat right 30px bottom 30px;
+  }
+
+
+  .hero-content {
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 900px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+  }
+
+
+  .hero-content h1 {
+    margin-top: 0px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+
+  .hero-content h1 span{
+    font-size: 50px;
+    color: cornflowerblue;
+    text-shadow: black;
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+    
+  .hero-buttons .btn {
+    margin: 10px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+  }
+  
+  .scroll-down {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .scroll-down a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  #features {
+    background: rgb(100, 148, 238);
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .feature {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+
+  .feature h1
+  {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    color: black;
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+  
+  .feature p {
+    color: #666;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .zoom :hover
+  {
+    transform: scale(1.05);
+    
+  }
+  
+  #testimonials {
+    background: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .testimonial {
+    margin-bottom: 30px;
+  }
+  
+  .testimonial blockquote {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial cite {
+    font-weight: bold;
+  }
+  
+  #pricing {
+    background: rgb(100, 148, 238);
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .pricing-plan {
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+
+  #pricing :hover
+  {
+    transform: scale(1.05);
+  }
+  
+  .pricing-plan h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-plan p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-plan ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-plan ul li {
+    margin-bottom: 5px;
+  }
+  
+  .pricing-plan .btn {
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  #about {
+    background: #fff;
+    padding: 50px;
+    /* text-align: center; */
+  }
+  
+  #about h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  #contact {
+    background: rgb(100, 148, 238);
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    color: black;
+    text-decoration: none;
+  }
